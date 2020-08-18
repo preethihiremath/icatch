@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+        <title> home</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+              
+            <div class="container">
+                <button class="navbar-toggler" type="button" >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mr-auto" href="index.html">icatch</a>
+                
+                <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home "></span>HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aboutus.html"><span class="fa fa-info "></span>ABOUT</a></li>
+                    <li class="nav-item dropdown mt-2" >
+                            <a class=" navlink dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"><span class=" fa fa-list "></span>CATEGORIES</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#shop">Shop</a>
+                              <a class="dropdown-item" href="#customize">Customize</a>
+                              <a class="dropdown-item" href="#interact">Interact</a>
+                              <a class="dropdown-item" href="#virtual">Virtual Trial</a>
+                            </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contactus.html"><span class=" fa fa-address-card "></span>CONTACT</a></li>
+                </ul>
+            </div>
+                <span class="navbar-text mr-4">
+                    <a href="#"> 69 <i class="fa fa-angellist" aria-hidden="true"></i></a>
+                </span>
+                <span class="navbar-text  mr-3">
+                    <a href="#" role="button" 
+                        data-toggle="tooltip" data-html="true"  title="Wishlist"
+                        data-placement="bottom">   <i class="fa fa-heart" aria-hidden="true"></i></a>
+              </a>
+                </span>
+                <span class="navbar-text mr-4">
+                    <a href="#" role="button" 
+                        data-toggle="tooltip" data-html="true"  title="My Cart"
+                        data-placement="bottom">   <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+              </a>
+                </span>
+              
+                <span class="navbar-text d-block justify-content-space-between">
+                    <a data-toggle="modal" data-target="#loginModal">
+                    <span class="fa fa-sign-in"></span> Login</a>
+                </span>
+            </div>
+            </div>
+        </nav>
+     
+        <div id="loginModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="content">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Login </h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                        <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                    <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                                </div>
+                                <div class="col-sm-auto">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <header class="jumbotron">
+           <div class="container">
+            
+        <div class="row row-header">
+        <div class="col-12 col-sm-6">
+        <h1 class="icatch"> icatch</h1>
+        <h3>Shop your style</h3>
+        <p> We present to you the latest trends and virtual trial and many more </p> 
+        </div>
+        <div class="col-12 col-sm-6 align-self-center">
+        </div>
+        </div>
+          </div>
+        </header>      
+        <div class="container">
+            <div class="row row-content mt-0">
+                <div class="col">
+                    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img class="d-block img-fluid w-100 h-100 "
+                                    src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="sh">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Make youe own Outfit</h5>
+                                        <p> With our Customization Option Choose the color and material amd design your own outfit </p>
+                                      </div>
+                            </div>
+        
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid w-100 h-100"
+                                src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="it">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Make youe own Outfit</h5>
+                                    <p> With our Customization Option Choose the color and material amd design your own outfit </p>
+                                  </div>
+                            </div>
+        
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid w-100 h-100"
+                                src="https://images.unsplash.com/3/www.madebyvadim.com.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="alberto">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>ACCESCORIZE</h5>
+                                    <p> With our Customization Option Choose the color and material amd design your own outfit </p>
+                                  </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                   
+        
+                </div>
+            </div>
+         </div>
+        
+        <div class="row row-content alig-self-center">
+       
+            <div class="col-12 col-sm-3">
+                
+                    <div class="card h-100">
+                      <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80" class="card-img-top" alt="ethnic">
+                      
+                        <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                            <h3 class="card-text ">40% Best deals</h3>
+                          </div>
+                    </div>
+            </div>
+            <div class="col-12 col-sm-3">
+                
+                <div class="card  h-100">
+                  <img src="./img/winter.jpg" class="card-img-top" alt="Winter">
+                  <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                    <h5 class="card-text text-white ">70% off on winter wear</h5>
+                  </div>
+                </div>
+        </div>
+        <div class="col-12 col-sm-3">
+                
+            <div class="card  h-100">
+              <img src="https://images.unsplash.com/photo-1585820117003-4d6aafa444ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="boy">
+              <div class="card-img-overlay text-white d-flex flex-column justify-content-end ">
+                <h5 class="card-text text-white ">40% off on Men's Fashion</h5>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-3">
+                
+            <div class="card  h-100">
+              <img src="https://images.unsplash.com/photo-1585325796223-d02326506719?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="eth">
+             
+              <div class="card-img-overlay text-white d-flex flex-column justify-content-end">
+                <h5 class="card-text text-white ">30% off on ethnic </h5>
+              </div>
+            </div>
+        </div>
+           </div>  
+        
+          <div class ="row row-content align-items-center" id="shop">
+              <div class="col-12 col-sm-6 order-sm-first col-md-6">
+                  <div class="media">
+                      <img class="d-flex m-0 align-self-center"  width ="100%" height="20%"
+                              src="./img/p1.jpeg" alt="poster1">
+                  </div>
+              </div>
+              <div class="col col-sm  col-md">
+              <div class="description">
+                <b><h1 class="mr-0">BEST OFFERS<span class="badge badge-danger">HOT</span></h1></b>
+                <p class="d-none d-sm-block">All latest trends from ethnic to modern. choose em go get em!</p>
+                <div class="button">
+                    <a href="#" class="btn">  Shop Now <i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                </div>
+              </div> 
+             
+              </div>
+        
+          </div>
+        
+          <div class ="row row-content align-items-center" id="customize">
+            <div class="col-12 col-sm-6 order-sm-first">
+                <div class="description">
+                 <b>  <h1 class="mt-0">CUSTOMIZE </h1></b>
+                  <p class="d-none d-sm-block">Customize your own creation and share your style with similar style-minded people from all over the world and earn fashion points</p>
+                  <div class="button">
+                    <a href="#" class="btn"> Customize <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                </div> </div> 
+             
+                </div>
+              
+              <div class="col-12 col-sm order-sm-last">
+                  <div class="media">
+                      <img class="d-flex mr-0 img-thumbnail align-self-center" width="80%" height="10%"
+                              src="./img/customixw.jpeg" alt="poster2">
+                  </div>
+              </div>
+          </div>
+        
+          <div class ="row row-content align-items-center" id="interact">
+              <div class="col-12 col-sm-6 order-sm-first ">
+                  <div class="media">
+                      <img class="d-flex ml-0 img-thumbnail align-self-center" width="100%" height="20%"
+                              src="./img/make friends.jpeg" alt="poster3">
+                  </div>
+              </div>
+                  <div class="col-12 col-sm order-sm-last ">       
+                    <div class="description">
+                     <b>   <h1 class="mt-0">MAKE FRIENDS </h1></b>
+                     <p class="d-none d-sm-block">Say Hi to  your friends and help them choose outfits they look best in. Be a Fashion Consultant,<em>Earn Fashion points </em>  and win exciting prizes</p>
+                     <div class="button">
+                        <a href="#" class="btn" ><i class="fa fa-handshake-o" aria-hidden="true"></i> SAY HI!!</a>
+                    </div></div>
+                    
+                    </div>
+              </div>
+              
+          <div class ="row row-content align-items-center" id="virtual">
+              <div class="col-12 col-sm-6 order-sm-first">
+                <div class="description">
+                  <b>  <h1 class="mt-0">Virtual Trial </h1></b>
+                    <p class="d-none d-sm-block">Try your clothes see how they fit and move in real-time, with different fabrics and colors, and on different body sizes and shapes.</p>
+                    <div class="button">
+                        <a href="#" class="btn"> TRY NOW! <i class="fa fa-camera" aria-hidden="true"></i></a>
+                    </div> </div>
+              </div>
+              <div class="col col-sm  ">
+                  <div class="media">
+                      <img class="d-flex ml-0 img-thumbnail align-self-center" width="85%" height="30%"
+                              src="./img/vr.jpeg" alt="poster4">   
+                  </div>
+              </div>
+          </div>
+          <h1 class="  text-white"> Reviews</h1>
+          <div class="row row-content review align-items-center">
+          <div class="card-deck">
+                      <div class=" col-12 col-sm-4">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img src="img/girl.jpeg" class="card-img rounded-circle" alt="reu">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                    <p>Great offer and fastest shippings. Virtual try on helped me to select the best size for me. Great experince </p>
+                                    <footer class="blockquote-footer">Jane doe <cite title="Source Title">Bangalore</cite></footer>
+                                  </blockquote>
+                              <p class="card-text"><small class="text-muted">1 month ago</small></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                      <div class="col-12 col-sm-4">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                              <div class="col-md-4">
+                                <img src="https://images.unsplash.com/photo-1590756252677-8b92843273bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img rounded-circle" alt="reu">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p>It was really Fun shopping with icatch. I could design my own outfit for several ocassions. Thank you icatch</p>
+                                        <footer class="blockquote-footer">Jane doe <cite title="Source Title">Delhi</cite></footer>
+                                      </blockquote>
+                                  <p class="card-text"><small class="text-muted">2 month ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+
+                    <div class="col-12 col-sm-4">
+                        <div class="card mb-2" style="max-width: 540px; ">
+                            <div class="row no-gutters">
+                              <div class="col-md-5">
+                                <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img rounded-circle" alt="reu">
+                              </div>
+                              <div class="col-md">
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p>It was really Fun shopping with icatch. variety of options for customization.</p>
+                                        <footer class="blockquote-footer">Jane doe <cite title="Source Title">Bangalore</cite></footer>
+                                      </blockquote>
+                                  <p class="card-text"><small class="text-muted">1 month ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                         
+                    </div> 
+
+                  </div>
+              </div>
+              <div class="row align-items-center  justify-content-center">
+
+                    <a class="btn btn-default">
+                    <i class="fa fa-arrow-circle-left fa-lg" aria-hidden="true"></i>
+                    <i class="fa fa-arrow-circle-right fa-lg" aria-hidden="true"></i></a>
+                      
+
+          </div>
+   
+        
+        
+     
+     
+        <div class="footer">
+            <div class="container">
+                <div class="row">              
+                    <div class="col-4 offset-1 col-sm-2">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#aboutus.html">About</a></li>
+                            <li><a href="#">Category</a></li>
+                            <li><a href="#contactus.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-7 col-sm-5">
+                        <h5>Our Address</h5>
+                        <address>
+                        121, Clear Water Bay Road<br>
+                        Clear Water Bay, Kowloon<br>
+                        Bangalore<br>
+                        <i class="fa fa-phone fa-lg"></i> Tel.: +852 1234 5678<br>
+                        <i class="fa fa-fax fa-lg"></i>Fax: +852 8765 4321<br>
+                        <i class="fa fa-envelope fa-lg"></i>Email: <a href="mailto:ictach@felix.com">icatch@felix.com</a>
+                    </address>
+                    </div>
+                    <div class="col-12 col-sm-4 align-self-center">
+                        <div class="text-center">
+                            <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class=" fa fa-google-plus  fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class=" fa fa-facebook fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class=" fa fa-linkedin  fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class=" fa fa-twitter  fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class=" fa fa-youtube  fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-envelope" href="mailto:"><i class=" fa fa-envelope  fa-lg"></i></a>
+                        </div>
+                    </div>
+            </div>
+            <div class="row justify-content-center">             
+                    <div class="col-auto">
+                        <p>© Copyright 2018 icatch</p>
+                    </div>
+            </div>
+            </div>
+          
+          </div> 
+     
+     
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    </body>
+</html>
