@@ -1,136 +1,145 @@
 .row-header {
-    margin: 0px auto;
-    padding: 0px 0px; }
-  
-  .row-content {
-    margin: 0px auto;
-    padding: 50px 0px;
-    
-    min-height: 400px; }
-  
-  .footer {
-    background-color: #424242;;
-    margin: 0px auto;
-    padding: 20px 0px;
-  color: white; }
-  
-  .jumbotron {
-    margin: 0px auto;
-    padding: 70px 30px;
-    background:#B00020;
-    color: floralwhite; }
-   
-  .container
-  {
-    margin: 0px auto;
-    
-  }
-  address {
-    font-size: 80%;
-    margin: 0px;
-    color: white; }
-  
-  body {
-    padding: 50px 0px 0px 0px;
-    z-index: 0; 
-    font-family: "Gill Sans", sans-serif;
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+
+  min-height: 400px;
+}
+
+.footer {
+  background-color: #424242;
+  margin: 0px auto;
+  padding: 20px 0px;
+  color: white;
+}
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #b00020;
+  color: floralwhite;
+}
+
+.container {
+  margin: 0px auto;
+}
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: white;
+}
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  font-family: "Gill Sans", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url("https://images.unsplash.com/photo-1539109136881-3be0616acf4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
   background-size: cover;
   background-position: center;
-    background-repeat: repeat-y;
-  
-  
-  }
-  
-  .navbar-dark {
-    background-color: #424242; }
-  
-  .tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px; }
-  
-  .carousel {
-    background: #512DA8; }
-  
-    .carousel .carousel-item {
-      height: 500px; }
-  
-      .carousel .carousel-item img {
-          
-        position: absolute;
-        top: 0;
-        left: 0;
-        min-height: 300px; }
-  
-  #carouselButton {
-    right: 0px;
-    position: absolute;
-    bottom: 0px;
-    z-index: 1; }
-  
-  .modal-header {
-    background-color: #512DA8;
-    color: floralwhite; }
-    .modal-header button {
-      color: floralwhite; }
-  
-  .modal-body {
-    background-color: #D1C4E9; }
-  
-  .icatch{
-    font-family: cursive , Impact, 'Arial Narrow Bold', sans-serif;
-    font-style: oblique;
-  }
-  
-  .description{
-    justify-content: center;
-    margin: 3px;
-    padding: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-    align-self: center;
-    border: 5px solid white;
-    border-radius: 25px;;
-  }
-    
-  .card-img-overlay {
-    font-family: cursive;
-    font-style: italic;
-  }
-  .btn{
-    display: inline;
-    margin: 0px auto;
-    padding: 10px 20px;
-    justify-content: center;
-    border: 2px solid  white;
-    color: white;
-    text-decoration: none;
-  }
-  .navbar-text a {
-margin: 3px auto;
-  }
+  background-repeat: repeat-y;
+}
 
-  .sub-menu1{
-      display: none;
-  }
-.dropdown{
-    color: white;
-    text-decoration: none;
-    background: transparent;
+.navbar-dark {
+  background-color: #424242;
 }
-.dropdown-item{
-    background: transparent;
-    border-bottom : 1px solid black;
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
 }
-.review{
-    border-top: 1px solid white;
+
+.carousel {
+  background: #512da8;
 }
-.fa{
-    color: white;
+
+.carousel .carousel-item {
+  height: 500px;
 }
-.history{
+
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.modal-header {
+  background-color: #512da8;
+  color: floralwhite;
+}
+.modal-header button {
+  color: floralwhite;
+}
+
+.modal-body {
+  background-color: #d1c4e9;
+}
+
+.icatch {
+  font-family: cursive, Impact, "Arial Narrow Bold", sans-serif;
+  font-style: oblique;
+}
+
+.description {
+  justify-content: center;
+  margin: 3px;
+  padding: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  align-self: center;
+  border: 5px solid white;
+  border-radius: 25px;
+}
+
+.card-img-overlay {
+  font-family: cursive;
+  font-style: italic;
+}
+.btn {
+  display: inline;
+  margin: 0px auto;
+  padding: 10px 20px;
+  justify-content: center;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+}
+.navbar-text a {
+  margin: 3px auto;
+}
+
+.sub-menu1 {
+  display: none;
+}
+.dropdown {
+  color: white;
+  text-decoration: none;
+  background: transparent;
+}
+.dropdown-item {
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+.review {
+  border-top: 1px solid white;
+}
+.fa {
+  color: white;
+}
+.history {
   color: white;
 }
